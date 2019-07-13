@@ -60,3 +60,5 @@ gem 'friendly_id', '~>5.1.0'
 gem 'devise', '~> 4.6', '>= 4.6.2'
 
 gem 'bootstrap', '~> 4.3.1'
+
+gem 'slawek_malczewski_view_tool', git: 'https://github.com/slawekmalczewski/slawek_malczewski_view_tool'

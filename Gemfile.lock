@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/slawekmalczewski/slawek_malczewski_view_tool
+  revision: a361abd1492e41fe8cd5340e85033ea3d380ad3b
+  specs:
+    slawek_malczewski_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -216,6 +222,7 @@ DEPENDENCIES
   puma (~> 3.11)
   rails (~> 5.2.1)
   sass-rails (~> 5.0)
+  slawek_malczewski_view_tool!
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)

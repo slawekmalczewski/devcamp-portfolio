@@ -17,4 +17,8 @@ module ApplicationHelper
     end
   end
 
+  def copyright_generator
+    SlawekMalczewskiViewTool::Renderer.copyright 'Slawomir Malczewski', 'All rights reserved'
+  end
+
 end
