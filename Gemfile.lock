@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/slawekmalczewski/slawek_malczewski_view_tool
+  revision: a361abd1492e41fe8cd5340e85033ea3d380ad3b
+  specs:
+    slawek_malczewski_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -43,10 +49,16 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (9.0.0)
+    autoprefixer-rails (9.6.1)
+      execjs
     bcrypt (3.1.13)
     bindex (0.7.0)
     bootsnap (1.4.4)
       msgpack (~> 1.0)
+    bootstrap (4.3.1)
+      autoprefixer-rails (>= 9.1.0)
+      popper_js (>= 1.14.3, < 2)
+      sassc-rails (>= 2.0.0)
     builder (3.2.3)
     byebug (11.0.1)
     coderay (1.1.2)
@@ -98,6 +110,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
     pg (1.1.4)
+    popper_js (1.14.5)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -151,6 +164,15 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
+    sassc (2.0.1)
+      ffi (~> 1.9)
+      rake
+    sassc-rails (2.1.2)
+      railties (>= 4.0.0)
+      sassc (>= 2.0)
+      sprockets (> 3.0)
+      sprockets-rails
+      tilt
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -188,6 +210,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
+  bootstrap (~> 4.3.1)
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.6, >= 4.6.2)
@@ -199,6 +222,7 @@ DEPENDENCIES
   puma (~> 3.11)
   rails (~> 5.2.1)
   sass-rails (~> 5.0)
+  slawek_malczewski_view_tool!
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
