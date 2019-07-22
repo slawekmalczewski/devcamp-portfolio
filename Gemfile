@@ -64,3 +64,7 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'slawek_malczewski_view_tool', git: 'https://github.com/slawekmalczewski/slawek_malczewski_view_tool'
 
 gem 'petergate', '~> 2.0', '>= 2.0.1'
+
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
